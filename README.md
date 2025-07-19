@@ -18,13 +18,17 @@ self_dataset/
 │   ├── lip_reading_recorder.py    # Record custom dataset
 │   ├── augment_dataset.py         # Augment recorded videos
 │   ├── process_augmented.py       # Process augmented dataset
-│   ├── train_model.py             # Train the lip reading model
-│   ├── custom_preprocessor.py     # Process original dataset
 │   └── metadata_cleaner.py        # Clean dataset metadata
+├── tests/
+│   ├── test_pretrained_lrw.py     # Test pretrained model
+│   ├── test_self-trained.py       # Test self-trained model
 ├── data/                          # Dataset folder (not included)
-├── models/                        # Model weights (not included)
-├── processed_augmented_dataset/   # Processed data (not included)
-└── results/                       # Training results (not included)
+├── checkpoints/                   # Model weights (not included)
+├── lrw_vocab.txt                  # 500 vocabs for pretrained model
+├── model.py                       # To run the model
+├── video_cnn.py                   # To run the model
+├── requirements.txt
+└── README.md
 ```
 
 ## Model Architecture
