@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    "BAD",
+    "BYE",
+    "COME",
+    "FIVE",
+    "FOUR",
+    "GO",
+    "GOOD",
+    "GOODBYE",
+    "HELLO",
+    "HELP",
+    "HI",
+    "HOW",
+    "ME",
+    "NEED",
+    "NO",
+    "NOW",
+    "OKAY",
+    "ONE",
+    "PLEASE",
+    "SORRY",
+    "THANKS",
+    "THREE",
+    "TIME",
+    "TODAY",
+    "TWO",
+    "WANT",
+    "WHAT",
+    "WHERE",
+    "YES",
+    "YOU"
+  ],
+  "vocab_size": 30,
+  "splits": {
+    "train": {
+      "successful": 1920,
+      "failed": 0
+    },
+    "val": {
+      "successful": 240,
+      "failed": 0
+    },
+    "test": {
+      "successful": 240,
+      "failed": 0
+    }
+  },
+  "target_size": [
+    128,
+    64
+  ],
+  "sequence_length": 75,
+  "split_ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "augmented": true
+}

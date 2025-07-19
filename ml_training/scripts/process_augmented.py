@@ -22,7 +22,7 @@ class AugmentedLipReadingProcessor:
     """Processor for augmented lip reading dataset"""
     
     def __init__(self, dataset_path="data/augmented_lipreading_dataset", 
-                 output_path="processed_augmented_dataset"):
+                 output_path="data/processed_augmented_dataset"):
         self.dataset_path = Path(dataset_path)
         self.output_path = Path(output_path)
         self.metadata_file = self.dataset_path / "metadata.json"
@@ -526,7 +526,7 @@ def main():
     base_dir = script_dir.parent  # Go up one level from scripts/
     
     augmented_path = base_dir / "data" / "augmented_lipreading_dataset"
-    output_path = base_dir / "processed_augmented_dataset"
+    output_path = base_dir / "data" / "processed_augmented_dataset"
     
     print(f"\nScript directory: {script_dir}")
     print(f"Base directory: {base_dir}")
