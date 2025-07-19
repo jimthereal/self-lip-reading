@@ -4,158 +4,43 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual Environments
+env/
 venv/
 ENV/
-env/
 .venv
-.ENV
-.env
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
-
-# PyCharm
-.idea/
-
-# VS Code
-.vscode/
-*.code-workspace
-
-# Dataset folders (too large for git)
-data/
-processed_augmented_dataset/
-processed_dataset/
-processed_data/
-
-# Model weights and checkpoints
-models/
-*.pth
-*.pt
-*.ckpt
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-checkpoint/
-checkpoints/
-saved_models/
-weights/
-
-# Results and logs (can be regenerated)
-results/
-logs/
-runs/
+# Django
 *.log
-recording_progress.txt
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
 
-# Video files
+# ML Models
+*.pt
+*.pth
+checkpoints/
+
+# Data
+*.pkl
 *.mp4
-*.avi
-*.mov
-*.mkv
-*.flv
-*.wmv
-*.webm
 
-# Image files (if you have extracted frames)
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.tiff
-*.tif
-
-# Audio files (if any)
-*.wav
-*.mp3
-*.flac
-*.aac
-
-# Temporary files
-*.tmp
-*.temp
+# IDE
+.vscode/
+.idea/
 *.swp
 *.swo
-*~
+
+# OS
 .DS_Store
 Thumbs.db
 
-# Archives
-*.zip
-*.tar
-*.tar.gz
-*.rar
-*.7z
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Documentation build
-docs/_build/
-docs/_static/
-docs/_templates/
-
-# Coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
+# React
+frontend/build/
+frontend/.env.local
