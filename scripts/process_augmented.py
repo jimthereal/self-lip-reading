@@ -32,7 +32,7 @@ class AugmentedLipReadingProcessor:
         self.sequence_length = 75  # Fixed sequence length
         
         # Split ratios - adjusted for augmented dataset
-        self.train_ratio = 0.8  # More for training with augmented data
+        self.train_ratio = 0.8
         self.val_ratio = 0.1
         self.test_ratio = 0.1
         
